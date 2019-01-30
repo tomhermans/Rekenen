@@ -20,7 +20,7 @@
 // import Optellen from "./components/Optellen";
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     // Tafels,
     // Optellen

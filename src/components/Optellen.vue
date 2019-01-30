@@ -38,11 +38,11 @@
 
 <script>
 export default {
-  // name: "optellen",
-  props: ["name"],
+  // name: 'optellen',
+  props: ['name'],
   data() {
     return {
-      msg: "Welcome to Your Vue.js App",
+      msg: 'Welcome to Your Vue.js App',
       form: {
         values: []
       },

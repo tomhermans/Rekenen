@@ -35,12 +35,12 @@
 
 <script>
 export default {
-  // name: "tafels",
-  props: ["name"],
+  // name: 'tafels',
+  props: ['name'],
   data() {
     return {
-      msg: "Welcome to Your Vue.js App",
-      name: "",
+      msg: 'Welcome to Your Vue.js App',
+      name: '',
       number: this.randomNumber(),
       form: {
         values: []
