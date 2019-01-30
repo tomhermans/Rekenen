@@ -1,10 +1,18 @@
-# test-project
+# Rekenen
+
+Wanted to make a quick app for my daughter Astrid to help her with math exercises.
+Sums, and later tables of multiplication.
+Spun up a vue app in codesandbox.
+Stored it on github
+Deploy to Netlify
+
+Learnt some Vue principles and amazed about the ease of getting this online.
 
 > A Vue.js project
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
