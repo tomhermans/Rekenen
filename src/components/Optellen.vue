@@ -38,7 +38,7 @@
 
 <script>
 export default {
-  name: "optellen",
+  // name: "optellen",
   props: ["name"],
   data() {
     return {
@@ -56,17 +56,17 @@ export default {
   },
   methods: {
     randomNumber: function() {
-      return Math.floor(Math.random() * (10 - 1 + 1)) + 1;
+      return Math.floor(Math.random() * 10) + 1;
     },
     randomArray: function() {
-      var arr = [];
-      for (var i = 1; i < 11; i++) {
+      let arr = [];
+      for (let i = 1; i < 11; i++) {
         arr.push(this.randomNumber());
       }
       return arr;
     },
     startagain: function() {
-      for (var i = 1; i < this.form.values.length; i++) {
+      for (let i = 1; i < this.form.values.length; i++) {
         this.form.values[i] = "";
       }
     },

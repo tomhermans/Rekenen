@@ -35,7 +35,7 @@
 
 <script>
 export default {
-  name: "tafels",
+  // name: "tafels",
   props: ["name"],
   data() {
     return {
@@ -53,7 +53,7 @@ export default {
     },
     startagain: function() {
       this.number = this.randomNumber();
-      for (var i = 1; i < this.form.values.length; i++) {
+      for (let i = 1; i < this.form.values.length; i++) {
         this.form.values[i] = "";
       }
     },
